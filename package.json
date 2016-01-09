@@ -27,9 +27,7 @@
   "dependencies": {
     "async": "^1.5.2",
     "commander": "^2.9.0",
-    "github": "^0.2.4",
-    "locater": "^1.0.0",
-    "moment": "^2.11.0"
+    "github": "^0.2.4"
   },
   "devDependencies": {
     "chai": "^3.4.1",
