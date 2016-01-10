@@ -26,8 +26,10 @@
   "homepage": "https://github.com/sungwoncho/github-license-updater#readme",
   "dependencies": {
     "async": "^1.5.2",
+    "colors": "^1.1.2",
     "commander": "^2.9.0",
-    "github": "^0.2.4"
+    "github": "^0.2.4",
+    "inquirer": "^0.11.1"
   },
   "devDependencies": {
     "chai": "^3.4.1",
