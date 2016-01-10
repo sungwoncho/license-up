@@ -1,4 +1,4 @@
-# github-license-updater
+# license-up
 
 Update all your project's license files to use the latest year using a
 command line.
@@ -34,13 +34,13 @@ obtaining a copy of this software and associated documentation
 
 Such process becomes a hassle if you maintain multiple projects.
 
-github-license-updater solves that problem by automating the process using your
+license-up solves that problem by automating the process using your
 command line.
 
 
 ## Installation
 
-    npm install -g github-license-updater
+    npm install -g license-up
 
 
 ## How it works

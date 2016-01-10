@@ -1,29 +1,30 @@
 {
-  "name": "github-license-updater",
+  "name": "license-up",
   "version": "0.1.0",
   "description": "Easily update the year in the project license",
   "main": "index.js",
   "bin": {
-    "glu": "./bin/glu"
+    "license-up": "./bin/license-up"
   },
   "scripts": {
     "test": "mocha ./test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sungwoncho/github-license-updater.git"
+    "url": "git+https://github.com/sungwoncho/license-up.git"
   },
   "keywords": [
     "github",
+    "license",
     "licence",
-    "updater"
+    "updater",
   ],
   "author": "Sung Won Cho <mikeswcho@gmail.com> (https://sungwoncho.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sungwoncho/github-license-updater/issues"
+    "url": "https://github.com/sungwoncho/license-up/issues"
   },
-  "homepage": "https://github.com/sungwoncho/github-license-updater#readme",
+  "homepage": "https://github.com/sungwoncho/license-up#readme",
   "dependencies": {
     "async": "^1.5.2",
     "colors": "^1.1.2",
