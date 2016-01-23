@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/sungwoncho/license-up.svg?branch=master)](https://travis-ci.org/sungwoncho/license-up)
 
-Update outdated license files in your github repos from command line.
+Update outdated license files for your projects from command line.
 
 ![](https://cldup.com/hYgM2ktBIP.gif)
 
