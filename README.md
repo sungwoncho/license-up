@@ -4,6 +4,8 @@
 
 Update outdated license files in your github repos from command line.
 
+![](https://cldup.com/k92SO6TYNk.gif)
+
 
 ## Installation
 
