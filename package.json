@@ -1,6 +1,6 @@
 {
   "name": "license-up",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Easily update the year in the project license",
   "main": "index.js",
   "bin": {
