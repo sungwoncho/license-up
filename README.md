@@ -1,7 +1,21 @@
 # license-up
 
-Update all your project's license files to use the latest year using a
-command line.
+Update outdated license files in your github repos from command line.
+
+
+## Installation
+
+    npm install -g license-up
+
+
+## Usage
+
+In your command line:
+
+    license-up --token [INSERT_YOUR_PERSONAL_ACCESS_TOKEN]
+
+You can easily obtain a personal access token in your settings. Read
+[this](https://github.com/blog/1509-personal-api-tokens) for more info.
 
 
 ## Why
@@ -11,41 +25,30 @@ Every year, your projects' licenses become obsolete.
 On January 1, 2016, the following license file is out-of-date:
 
 ```md
-The MIT License (MIT)
-
 Copyright (c) 2015 Sung Won Cho
 
 Permission is hereby granted, free of charge, to any person
-obtaining a copy of this software and associated documentation
 ...
 ```
 
 It should be updated to:
 
 ```md
-The MIT License (MIT)
-
 Copyright (c) 2015-2016 Sung Won Cho
 
 Permission is hereby granted, free of charge, to any person
-obtaining a copy of this software and associated documentation
 ...
 ```
 
-Such process becomes a hassle if you maintain multiple projects.
+Such a process becomes a hassle if you maintain multiple projects.
 
 license-up solves that problem by automating the process using your
 command line.
 
 
-## Installation
-
-    npm install -g license-up
-
-
 ## How it works
 
-* It always asks you for a confirmation before making any updates.
+* It *always* asks you for a confirmation before updating the license file.
 
 e.g.
 
@@ -63,8 +66,8 @@ e.g.
 
 `Copyright (c) 2012` becomes `Copyright (c) 2012-2016`
 
-* If it detects a range of years and the last part is outdated, it updates the
-last part.
+* If it detects a range of years of which the last part is outdated, it updates
+the last part.
 
 e.g.
 
@@ -73,10 +76,10 @@ e.g.
 `Copyright (c) 2012 ~ 2015` becomes `Copyright (c) 2012 ~ 2016`
 
 
-## Work in progress
+## Supported license formats
 
-It is work in progress. Currently it only works with MIT licenses, and the
-license has to be named `LICENSE`. Working on improving it.
+license-up was tested on [MIT license](https://opensource.org/licenses/MIT). It
+might not work correctly with other types of licenses. Use with care.
 
 
 ## License
