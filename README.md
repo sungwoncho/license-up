@@ -48,6 +48,9 @@ command line.
 
 ## How it works
 
+* It goes through all your owned repos one by one, and looks for an outdated
+license file.
+
 * It *always* asks you for a confirmation before updating the license file.
 
 e.g.
