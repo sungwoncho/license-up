@@ -1,5 +1,7 @@
 # license-up
 
+[![Build Status](https://travis-ci.org/sungwoncho/license-up.svg?branch=master)](https://travis-ci.org/sungwoncho/license-up)
+
 Update outdated license files in your github repos from command line.
 
 
